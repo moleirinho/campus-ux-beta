@@ -1,0 +1,19 @@
+{
+    "personalportal":true,
+    "userpages": false,
+    "userdashboard": false,
+    "grouppages": false,
+    "groupdashboard": false,
+    "hasSettings": false,
+    "id": "activegroups",
+    "type": "sakai",
+    "enabled": true,
+    "url":"/devwidgets/activegroups/activegroups.html",
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/activegroups/bundles/default.properties",
+            "name": "Most active groups",
+            "description": "Most active groups"
+        }
+    }
+}

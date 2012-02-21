@@ -1,0 +1,21 @@
+{
+    "userpages": false,
+    "userdashboard": false,
+    "grouppages": false,
+    "groupdashboard": false,
+    "hasSettings":true,
+    "id":"contentcomments",
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/contentcomments/bundles/default.properties",
+            "name":"Content comments",
+            "description":"Content comments"
+        }
+    },
+    "img":"/devwidgets/contentcomments/images/comments.png",
+    "showinsakaigoodies":false,
+    "siteportal":false,
+    "type":"core",
+    "enabled":true,
+    "url":"/devwidgets/contentcomments/contentcomments.html"
+}

@@ -1,0 +1,21 @@
+{
+    "enabled":            true,
+    "groupdashboard":     false,
+    "grouppages":         true,
+    "hasSettings":        false,
+    "i18n": {
+        "default": {
+            "bundle":     "/devwidgets/mylibrary/bundles/default.properties",
+            "name":       "My library",
+            "description":"View and manage a user's library items"
+        }
+    },
+    "id":                 "mylibrary",
+    "personalportal":     false,
+    "showinsakaigoodies": true,
+    "type":               "sakai",
+    "url":                "/devwidgets/mylibrary/mylibrary.html",
+    "userdashboard":      false,
+    "userpages":          false,
+    "hashParams": ["ls", "lq"]
+}

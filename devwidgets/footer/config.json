@@ -1,0 +1,16 @@
+{
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/footer/bundles/default.properties",
+            "name": "Dynamic footer",
+            "description": "Dynamic Footer with Debug Info"
+        },
+        "pt_PT": {
+            "bundle": "/devwidgets/footer/bundles/pt_PT.properties"
+        }
+    },
+    "id":"footer",
+    "type":"core",
+    "enabled":true,
+    "url":"/devwidgets/footer/footer.html"
+}

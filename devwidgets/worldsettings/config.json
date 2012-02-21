@@ -1,0 +1,22 @@
+{
+    "ca":                 false,
+    "enabled":            true,
+    "groupdashboard":     false,
+    "grouppages":         false,
+    "hasSettings":        false,
+    "sakaidocs":          false,
+    "i18n": {
+        "default": {
+            "bundle":     "/devwidgets/worldsettings/bundles/default.properties",
+            "name":       "World settings",
+            "description":"Edit world settings"
+        }
+    },
+    "id":                 "worldsettings",
+    "personalportal":     false,
+    "showinsakaigoodies": false,
+    "type":               "core",
+    "url":                "/devwidgets/worldsettings/worldsettings.html",
+    "userdashboard":      false,
+    "userpages":          false
+}

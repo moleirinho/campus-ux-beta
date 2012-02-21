@@ -1,0 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Wellfleet);
+
+body, button{font-family:'Wellfleet', cursive, Arial, Helvetica, sans-serif;line-height:120%;}
+
+h1{font-size:2em;font-family:'Wellfleet', cursive, Arial,Helvetica,sans-serif;font-weight:bolder;line-height:normal;margin:5px 0px 10px 0;}
+
+.s3d-link-button {margin:0;padding:0;background: none repeat scroll 0 0 transparent;border: medium none;color:#2683bc;font-family: 'Wellfleet', cursive, Arial,Helvetica,sans-serif;font-size:13px;display: inline-block;text-align:left;font-size:11px;}

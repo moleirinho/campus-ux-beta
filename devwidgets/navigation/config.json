@@ -1,0 +1,17 @@
+{
+    "hasSettings": true,
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/navigation/bundles/default.properties",
+            "name": "Pages",
+            "description": "Navigate all the pages contained within this group or site"
+        }
+    },
+    "id": "navigation",
+    "img": "/devwidgets/navigation/images/icon.png",
+    "showinsidebar": true,
+    "showinsakaigoodies": true,
+    "type":"core",
+    "enabled":true,
+    "url": "/devwidgets/navigation/navigation.html"
+}

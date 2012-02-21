@@ -1,0 +1,18 @@
+{
+    "ca":true,
+    "hasSettings":true,
+    "id":"dashboard",
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/dashboard/bundles/default.properties",
+            "name":"Dashboard",
+            "description":"Dashboard"
+        }
+    },
+    "img":"/devwidgets/comments/images/comments.png",
+    "showinsakaigoodies":false,
+    "siteportal":false,
+    "type":"core",
+    "enabled":true,
+    "url":"/devwidgets/dashboard/dashboard.html"
+}

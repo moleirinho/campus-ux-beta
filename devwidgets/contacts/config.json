@@ -1,0 +1,15 @@
+{
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/contacts/bundles/default.properties",
+            "name": "contacts",
+            "description": "Contacts"
+        }
+    },
+    "id": "contacts",
+    "personalportal":false,
+    "type": "sakai",
+    "enabled": true,
+    "url":"/devwidgets/contacts/contacts.html",
+    "hashParams": ["cq", "cp", "cso", "ls"]
+}

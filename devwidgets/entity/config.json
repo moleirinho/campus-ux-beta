@@ -1,0 +1,13 @@
+{
+    "id":"entity",
+    "url":"/devwidgets/entity/entity.html",
+    "type":"core",
+    "enabled":true,
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/entity/bundles/default.properties",
+            "name": "Entity widget",
+            "description": "Entity widget"
+         }
+    }
+}

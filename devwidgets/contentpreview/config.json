@@ -1,0 +1,14 @@
+{
+    "id":"contentpreview",
+    "hasSettings":false,
+    "type":"core",
+    "enabled":true,
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/contentpreview/bundles/default.properties",
+            "name":"Content preview",
+            "description":"Content preview"
+        }
+    },
+    "url":"/devwidgets/contentpreview/contentpreview.html"
+}

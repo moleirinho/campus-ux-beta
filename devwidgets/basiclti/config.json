@@ -1,0 +1,22 @@
+{
+    "sakaidocs": false,
+    "ca":true,
+    "hasSettings": true,
+    "id":"basiclti",
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/basiclti/bundles/default.properties",
+            "name":"Basic LTI",
+            "description":"Basic LTI widget"
+        }
+    },
+    "img":"/devwidgets/basiclti/images/basiclti.png",
+    "type":"sakai",
+    "enabled":true,
+    "url":"/devwidgets/basiclti/basiclti.html",
+    "userpages": true,
+    "userdashboard": true,
+    "grouppages": true,
+    "groupdashboard": true,
+    "showinsakaigoodies":true
+}

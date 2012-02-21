@@ -1,0 +1,14 @@
+{
+    "id":"savecontent",
+    "hasSettings":false,
+    "type":"sakai",
+    "enabled":true,
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/savecontent/bundles/default.properties",
+            "name":"Savecontent",
+            "description":"Saves content into the users library"
+        }
+    },
+    "url":"/devwidgets/savecontent/savecontent.html"
+}

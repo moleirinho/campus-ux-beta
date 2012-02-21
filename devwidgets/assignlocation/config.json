@@ -1,0 +1,14 @@
+{
+    "hasSettings": false,
+    "id": "assignlocation",
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/assignlocation/bundles/default.properties",
+            "name": "Assign location",
+            "description": "Assign a directory location to an entity"
+        }
+    },
+    "type":"core",
+    "enabled":true,
+    "url": "/devwidgets/assignlocation/assignlocation.html"
+}

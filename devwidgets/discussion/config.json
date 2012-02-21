@@ -1,0 +1,27 @@
+{
+    "userpages": true,
+    "userdashboard": true,
+    "grouppages": true,
+    "groupdashboard": true,
+    "id":"discussion",
+    "img":"/devwidgets/discussion/images/discussion.png",
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/discussion/bundles/default.properties",
+            "name": "Discussion",
+            "description":"Discussion widget"
+        },
+        "en_US": {
+            "bundle": "/devwidgets/discussion/bundles/en_US.properties"
+        },
+        "zh_CN": {
+            "bundle": "/devwidgets/discussion/bundles/zh_CN.properties"
+        }
+    },
+    "showinsakaigoodies":true,
+    "hasSettings": true,
+    "type":"sakai",
+    "enabled":true,
+    "sakaidocs": true,
+    "url":"/devwidgets/discussion/discussion.html"
+}

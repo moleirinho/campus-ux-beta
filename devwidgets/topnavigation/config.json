@@ -1,0 +1,22 @@
+{
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/topnavigation/bundles/default.properties",
+            "name":"topnavigation",
+            "description":"topnavigation"
+        },
+        "en_US": {
+            "bundle": "/devwidgets/topnavigation/bundles/en_US.properties"
+        },
+        "nl_NL": {
+            "bundle": "/devwidgets/topnavigation/bundles/nl_NL.properties"
+        },
+        "zh_CN": {
+            "bundle": "/devwidgets/topnavigation/bundles/zh_CN.properties"
+        }
+    },
+    "id":"topnavigation",
+    "type":"core",
+    "enabled":true,
+    "url":"/devwidgets/topnavigation/topnavigation.html"
+}

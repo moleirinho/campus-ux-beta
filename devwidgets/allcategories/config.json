@@ -1,0 +1,20 @@
+{
+    "enabled":            false,
+    "groupdashboard":     false,
+    "grouppages":         false,
+    "hasSettings":        true,
+    "i18n": {
+        "default": {
+            "bundle":     "/devwidgets/allcategories/bundles/default.properties",
+            "name":       "All categories widget",
+            "description":"All categories widget"
+        }
+    },
+    "id":                 "allcategories",
+    "personalportal":     false,
+    "showinsakaigoodies": false,
+    "type":               "sakai",
+    "url":                "/devwidgets/allcategories/allcategories.html",
+    "userdashboard":      false,
+    "userpages":          false
+}

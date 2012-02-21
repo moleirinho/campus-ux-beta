@@ -1,0 +1,14 @@
+{
+    "id":"personinfo",
+    "hasSettings":false,
+    "type":"sakai",
+    "enabled":true,
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/personinfo/bundles/default.properties",
+            "name":"Personinfo",
+            "description":"Overlay that displays person info"
+        }
+    },
+    "url":"/devwidgets/personinfo/personinfo.html"
+}

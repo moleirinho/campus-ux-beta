@@ -1,0 +1,19 @@
+{
+    "userpages": false,
+    "userdashboard": true,
+    "grouppages": false,
+    "groupdashboard": true,
+    "hasSettings": true,
+    "id": "text",
+    "type": "sakai",
+    "enabled": true,
+    "url":"/devwidgets/text/text.html",
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/text/bundles/default.properties",
+            "name": "Text widget",
+            "description": "Text"
+        }
+    },
+    "indexFields": ["data/text"]
+}

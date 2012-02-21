@@ -1,0 +1,20 @@
+{
+    "enabled":            false,
+    "groupdashboard":     false,
+    "grouppages":         false,
+    "hasSettings":        false,
+    "i18n": {
+        "default": {
+            "bundle":     "/devwidgets/searchpeople/bundles/default.properties",
+            "name":       "Search people",
+            "description":"Search people"
+        }
+    },
+    "id":                 "searchpeople",
+    "personalportal":     false,
+    "showinsakaigoodies": false,
+    "type":               "core",
+    "url":                "/devwidgets/searchpeople/searchpeople.html",
+    "userdashboard":      false,
+    "userpages":          false
+}

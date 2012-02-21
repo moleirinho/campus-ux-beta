@@ -1,0 +1,13 @@
+{
+    "id":"accountpreferences",
+    "i18n": {
+        "default": {
+            "bundle": "/devwidgets/accountpreferences/bundles/default.properties",
+            "description":"Account preferences",
+            "name":"Account preferences"
+        }
+    },
+    "type":"core",
+    "enabled":true,
+    "url":"/devwidgets/accountpreferences/accountpreferences.html"
+}

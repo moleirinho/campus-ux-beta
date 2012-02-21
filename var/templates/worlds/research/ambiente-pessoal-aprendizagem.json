@@ -1,0 +1,369 @@
+{
+    "id": "ambiente-pessoal-aprendizagem",
+    "title": "Ambiente Pessoal Aprendizagem",
+    "img": "/var/templates/worlds/research/ambiente-pessoal-aprendizagem/basiccourse.png",
+    "fullImg": "/var/templates/worlds/research/ambiente-pessoal-aprendizagem/basiccourse-full.png",
+    "perfectFor": "Um espaço pessoal para o estudo e a aprendizagem",
+    "roles": [
+        {
+            "id": "leadresearcher",
+            "title": "LEAD_RESEARCHER",
+            "titlePlural": "LEAD_RESEARCHERS",
+            "isManagerRole": true,
+            "manages": [
+                "researcher",
+                "researchassistant",
+                "contributor",
+                "evaluator"
+            ]
+        },
+        {
+            "id": "researcher",
+            "title": "RESEARCHER",
+            "titlePlural": "RESEARCHERS",
+            "isManagerRole": true,
+            "manages": [
+                "researchassistant",
+                "contributor",
+                "evaluator"
+            ]
+        },
+        {
+            "id": "researchassistant",
+            "title": "RESEARCH_ASSISTANT",
+            "titlePlural": "RESEARCH_ASSISTANTS",
+            "isManagerRole": false
+        },
+        {
+            "id": "contributor",
+            "title": "CONTRIBUTOR",
+            "titlePlural": "CONTRIBUTORS",
+            "isManagerRole": false
+        },
+        {
+            "id": "evaluator",
+            "title": "EVALUATOR",
+            "titlePlural": "EVALUATORS",
+            "isManagerRole": false
+        }
+    ],
+    "docs": {
+        "${pid}0": {
+            "structure0": {
+                "introduction": {
+                    "_title": "Introduction",
+                    "_order": 0,
+                    "_ref": "${refid}0",
+                    "main": {
+                        "_title": "Introduction",
+                        "_order": 0,
+                        "_ref": "${refid}0"
+                    }
+                }
+            },
+            "${refid}0": {
+                "page": "<p><span style='color: rgb(128, 128, 0);'>DIÁRIO DE BORDO</span></p><p><span style='font-family: arial,helvetica,sans-serif;'>O teu diário é uma parte importante da tua aprendizagem.</span><br><span style='font-family: arial,helvetica,sans-serif;'>Dá entrada no diário de pensamentos, ideias, decisões e observações a respeito da tua aprendizagem. Especialmente as decisões para mudar atitudes ou investigar determinadas direções. Escreve as tuas inspirações e novos pensamentos. Usa o diário como guardião das tuas novas ideias.</span></p><p><span style='font-family: arial,helvetica,sans-serif;'>O teu diário é pessoal e só tu o podes ver.<br></span></p><p><strong><span data-mce-style='font-family: arial,helvetica,sans-serif; color: #808000;' style='font-family: arial,helvetica,sans-serif; color: rgb(128, 128, 0);'>Abre um novo tópico para cada entrada e coloca no título do tópico.</span></strong><br></p><p><span style='font-family: arial,helvetica,sans-serif;'></span><img src='/devwidgets/discussion/images/discussion.png' id='widget_discussion_${refid}1' class='widget_inline' style='display: block; padding: 10px; margin: 4px;' border='1'></p><div style='margin: 0; padding: 0; width: 100%; font-family:Arial, Helvetica, sans-serif; line-height: 1.25em; color: #333; font-size: 1em;'><br style='margin: 0pt 0pt 10px; font-size: 1.75em; line-height: 1em; color: rgb(51, 51, 51);'></div>"
+            },
+            "${refid}1": {
+                "discussion": {
+                    "groupid": "${groupid}"
+                }
+            }
+        },
+        "${pid}1": {
+            "structure0": {
+                "library": {
+                    "_title": "Library",
+                    "_ref": "${refid}2",
+                    "_order": 0,
+                    "_nonEditable": true,
+                    "main": {
+                        "_title": "Library",
+                        "_ref": "${refid}2",
+                        "_order": 0,
+                        "_nonEditable": true
+                    }
+                }
+            },
+            "${refid}2": {
+                "page": "<img id='widget_mylibrary_${refid}3' class='widget_inline' style='display: block; padding: 10px; margin: 4px;' src='/devwidgets/mylibrary/images/mylibrary.png' data-mce-src='/devwidgets/mylibrary/images/mylibrary.png' data-mce-style='display: block; padding: 10px; margin: 4px;' border='1'><br><p></p>"
+            },
+            "${refid}3": {
+                "mylibrary": {
+                    "groupid": "${groupid}"
+                }
+            }
+        },
+        "${pid}2": {
+            "structure0": {
+                "Orientações": {
+                    "_title": "Orientações",
+                    "_order": 0,
+                    "_ref": "${refid}4",
+                    "_nonEditable": false,
+                    "main": {
+                        "_title": "Orientações",
+                        "_order": 0,
+                        "_ref": "${refid}4",
+                        "_nonEditable": false
+                    }
+                }
+            },
+            "${refid}4": {
+                "page": "<p><span style='color: rgb(128, 128, 0);'>AMBIENTE PESSOAL DE APRENDIZAGEM</span></p><p><span style='color: rgb(128, 128, 0);'><span style='color: rgb(0, 0, 0); font-family: arial,helvetica,sans-serif;'>Estás no teu ambiente pessoal de estudo e aprendizagem.&nbsp; É aqui que vais desenvolver as tuas atividades individuais.</span> <br></span></p><p><span style='color: rgb(128, 128, 0);'>ESPAÇOS DE TRABALHO</span><span style='font-family: arial,helvetica,sans-serif;'></span></p><p><span style='font-family: arial,helvetica,sans-serif;'>A ideia é ter um espaço de trabalho para cada módulo de aprendizagem. </span><span style='font-family: arial,helvetica,sans-serif;'> É aqui que vai desenvolver as tuas atividades individuais e partilhá-las com o facilitador. </span></p><p><span style='font-family: arial,helvetica,sans-serif;'>O teu ambiente pessoal de aprendizagem tem por defeito um espaço 'Introdução Campus' com duas páginas: </span></p><ul><li><span data-mce-style='font-family: arial,helvetica,sans-serif;' style='font-family: arial,helvetica,sans-serif;'>Plano Pessoal de Aprendizagem (atividade do módulo 'Introdução Campus'). </span></li><li><span style='font-family: arial,helvetica,sans-serif;'>Apontamentos. <br></span></li></ul><p><span style='color: rgb(128, 128, 0);'>EDITAR PÁGINA<br></span></p><p><span style='font-family: arial,helvetica,sans-serif;'>Selecionar a página clicando em 'Plano Pessoal de Aprendizagem' e clicar no botão 'Editar página' que está em cima. <br></span></p><ul><li><span style='font-family: arial,helvetica,sans-serif;'>Para inserir ficheiros {imagem ou outros) colocar o cursor onde queres inserir o ficheiro e clicar em 'Inserir' e 'Ficheiros e documentos'. Tens duas opções 'Pesquisar por conteúdo', isto é inserir, um documento do Campus ou 'Adicionar novo conteúdo' a partir do teu computador. <br></span></li></ul><p><span style='font-family: arial,helvetica,sans-serif;'>Para adicionar apontamentos selecionar a página clicando em 'Apontamentos' e clicar no botão 'Editar página' que está em cima. <br></span></p><p><span style='font-family: arial,helvetica,sans-serif;'>Não esquecer de gravar no final.</span> <br></p><p><span style='color: rgb(128, 128, 0);'>E DEPOIS</span><br></p><p><span style='font-family: arial,helvetica,sans-serif;'>Aconselhamos vivamente a criação de um espaço de trabalho para cada módulo de aprendizagem.</span></p><p><span style='font-family: arial,helvetica,sans-serif;'>O teu ambiente pessoal de aprendizagem tem por defeito um espaço </span><span style='font-family: arial,helvetica,sans-serif;'>de trabalho 'Modelo' com 5 páginas, uma para cada unidade.&nbsp; </span></p><ul><li><span style='font-family: arial,helvetica,sans-serif;'>Para alterar o nome do espaço de trabalho passa o rato por cima de 'Modelo' e clica na seta que aperece e de seguida em 'Alterar Título'. Escreve o nome do módulo, por exemplo, 'Introdução Permacultura'. </span><br></li><li><span style='font-family: arial,helvetica,sans-serif;'>Dar permissões ao facilitador para ver o espaço de trabalho. Na parte de cima do ecrã, clica no botão 'Ferramentas' ao lado do botão 'Mensagem'. De seguida clica em 'Administrar os participantes'. Seleciona o facilitador e adiciona-o ao teu espaço de trabalho clicando na seta que está no meio. Atribuir a função 'Avaliador' ao facilitador.</span></li><li><span style='font-family: arial,helvetica,sans-serif;'>Para começar as atividades, seleciona a página de atividades e clica no botão 'Editar página' que está na parte cima do ecrã.</span></li><li><span style='font-family: arial,helvetica,sans-serif;'>Acabadas as atividades de uma unidade envia uma mensagem ao facilitador. <br></span></li></ul><p><span style='font-family: arial,helvetica,sans-serif;'>Se precisares de ajuda contacta o facilitador.</span><br></p><p><span style='font-family: arial,helvetica,sans-serif; color: rgb(128, 128, 0);'>AVANÇANDO NA APRENDIZAGEM</span></p><p><span style='font-family: arial,helvetica,sans-serif;'>Criar mais espaços de trabalho<br></span></p><ul><li><span style='font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);'>Clica no botão 'Adicionar + ' do lado esquerdo do ecrã. Digita o nome do curso, por exemplo, 'Sustentabilidade Social' e seleciona quem pode ver 'Apenas participantes'.&nbsp;&nbsp;Escreve o número de páginas que queres adicionar.&nbsp;<span id='addarea_new_numberofpages_doc'>Podes adicionar mais e alterar o nome mais tarde.</span> Clicar em 'Concluido, adicionar' para terminar.</span><br></li><li><span style='font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);'>Para adicionar mais páginas ao espaço de trabalho, selecionar a página e clicar no botão 'Adicionar página' que estã na parte em cima.</span>&nbsp;</li><li><span style='font-family: arial,helvetica,sans-serif;'>Dar permissões ao facilitador para ver o espaço de trabalho. Na parte de cima do ecrã, clica no botão 'Ferramentas' ao lado do botão 'Mensagem'. De seguida clica em 'Administrar os participantes'. Seleciona o facilitador e adiciona-o ao espaço de trabalho clicando na seta que está no meio. Atribuir a função 'Avaliador' ao facilitador.</span></li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
+            }
+        },
+        "${pid}3": {
+            "structure0": {
+                "Introdução-Campus": {
+                    "_title": "Plano Pessoal de Aprendizagem",
+                    "_order": 0,
+                    "_ref": "${refid}5",
+                    "_nonEditable": false,
+                    "main": {
+                        "_title": "Introdução Campus",
+                        "_order": 0,
+                        "_ref": "${refid}5",
+                        "_nonEditable": false
+                    }
+                },
+                "id3918595": {
+                    "_ref": "${refid}6",
+                    "_title": "Apontamentos",
+                    "_order": 1,
+                    "_canSubedit": true,
+                    "_canEdit": true,
+                    "main": {
+                        "_ref": "${refid}6",
+                        "_order": 0,
+                        "_title": "Untitled Page",
+                        "_childCount": 0,
+                        "_canSubedit": true,
+                        "_canEdit": true
+                    },
+                    "_childCount": 1
+                }
+            },
+            "${refid}5": {
+                "page": "<p><span style='font-family: arial,helvetica,sans-serif;'>Clica 'Editar página' para escrever</span><br data-mce-bogus='1'></p>"
+            },
+            "${refid}6": {
+                "page": "<p><span style='font-family: arial,helvetica,sans-serif;'>Clica 'Editar página' para escrever</span></p>"
+            }
+        },
+        "${pid}4": {
+            "structure0": {
+                "Nome-Módulo": {
+                    "_title": "Atividades Unid. I",
+                    "_order": 0,
+                    "_ref": "${refid}7",
+                    "_nonEditable": false,
+                    "main": {
+                        "_title": "Nome Módulo",
+                        "_order": 0,
+                        "_ref": "${refid}7",
+                        "_nonEditable": false
+                    }
+                },
+                "id8992912": {
+                    "_ref": "${refid}8",
+                    "_title": "Apontamentos",
+                    "_order": 5,
+                    "_canSubedit": true,
+                    "_canEdit": true,
+                    "main": {
+                        "_ref": "${refid}8",
+                        "_order": 0,
+                        "_title": "Untitled Page",
+                        "_childCount": 0,
+                        "_canSubedit": true,
+                        "_canEdit": true
+                    },
+                    "_childCount": 1
+                },
+                "id8726463": {
+                    "_ref": "${refid}9",
+                    "_title": "Atividades Unid. II",
+                    "_order": 1,
+                    "_canSubedit": true,
+                    "_canEdit": true,
+                    "main": {
+                        "_ref": "${refid}9",
+                        "_order": 0,
+                        "_title": "Untitled Page",
+                        "_childCount": 0,
+                        "_canSubedit": true,
+                        "_canEdit": true
+                    },
+                    "_childCount": 1
+                },
+                "id6425721": {
+                    "_ref": "${refid}10",
+                    "_title": "Atividades Unid. III",
+                    "_order": 2,
+                    "_canSubedit": true,
+                    "_canEdit": true,
+                    "main": {
+                        "_ref": "${refid}10",
+                        "_order": 0,
+                        "_title": "Untitled Page",
+                        "_childCount": 0,
+                        "_canSubedit": true,
+                        "_canEdit": true
+                    },
+                    "_childCount": 1
+                },
+                "id1510095": {
+                    "_ref": "${refid}11",
+                    "_title": "Atividades Unid. V",
+                    "_order": 4,
+                    "_canSubedit": true,
+                    "_canEdit": true,
+                    "main": {
+                        "_ref": "${refid}11",
+                        "_order": 0,
+                        "_title": "Untitled Page",
+                        "_childCount": 0,
+                        "_canSubedit": true,
+                        "_canEdit": true
+                    },
+                    "_childCount": 1
+                },
+                "id5040627": {
+                    "_ref": "${refid}12",
+                    "_title": "Atividades Unid. IV",
+                    "_order": 3,
+                    "_canSubedit": true,
+                    "_canEdit": true,
+                    "main": {
+                        "_ref": "${refid}12",
+                        "_order": 0,
+                        "_title": "Untitled Page",
+                        "_childCount": 0,
+                        "_canSubedit": true,
+                        "_canEdit": true
+                    },
+                    "_childCount": 1
+                }
+            },
+            "${refid}7": {
+                "page": "<p><span style='font-family: arial,helvetica,sans-serif;'>Clica 'Editar página' para escrever</span></p>"
+            },
+            "${refid}8": {
+                "page": ""
+            },
+            "${refid}9": {
+                "page": ""
+            },
+            "${refid}10": {
+                "page": ""
+            },
+            "${refid}11": {
+                "page": ""
+            },
+            "${refid}12": {
+                "page": ""
+            }
+        }
+    },
+    "structure": {
+        "introduction": {
+            "_edit": [
+                "-leadresearcher",
+                "-researcher",
+                "-researchassistant"
+            ],
+            "_docref": "${pid}0",
+            "_title": "Diário de Bordo",
+            "_order": 1,
+            "_view": [
+                "everyone",
+                "anonymous",
+                "-contributor",
+                "-evaluator"
+            ],
+            "_canView": true,
+            "_canSubedit": true,
+            "_canEdit": true
+        },
+        "library": {
+            "_edit": [
+                "-leadresearcher",
+                "-researcher",
+                "-researchassistant"
+            ],
+            "_docref": "${pid}1",
+            "_title": "Biblioteca",
+            "_order": 2,
+            "_view": [
+                "everyone",
+                "anonymous",
+                "-contributor",
+                "-evaluator"
+            ],
+            "_nonEditable": true,
+            "_canView": true,
+            "_canSubedit": true,
+            "_canEdit": true
+        },
+        "Orientações": {
+            "_title": "Orientações",
+            "_order": 0,
+            "_view": [
+                "-researchassistant",
+                "-contributor",
+                "-evaluator"
+            ],
+            "_edit": [
+                "-leadresearcher",
+                "-researcher"
+            ],
+            "_nonEditable": false,
+            "_canView": true,
+            "_canSubedit": true,
+            "_canEdit": true,
+            "_docref": "${pid}2"
+        },
+        "Introdução-Campus": {
+            "_title": "Introdução Campus",
+            "_order": 3,
+            "_view": [
+                "-researchassistant",
+                "-contributor",
+                "-evaluator"
+            ],
+            "_edit": [
+                "-leadresearcher",
+                "-researcher"
+            ],
+            "_nonEditable": false,
+            "_canView": true,
+            "_canSubedit": true,
+            "_canEdit": true,
+            "_docref": "${pid}3"
+        },
+        "Nome-Módulo": {
+            "_title": "Modelo ",
+            "_order": 4,
+            "_view": [
+                "-researchassistant",
+                "-contributor",
+                "-evaluator"
+            ],
+            "_edit": [
+                "-leadresearcher",
+                "-researcher"
+            ],
+            "_nonEditable": false,
+            "_canView": true,
+            "_canSubedit": true,
+            "_canEdit": true,
+            "_docref": "${pid}4"
+        }
+    },
+    "joinRole": "contributor",
+    "creatorRole": "leadresearcher",
+    "defaultaccess": "public",
+    "defaultjoin": "yes",
+    "excludeSearch": true
+}

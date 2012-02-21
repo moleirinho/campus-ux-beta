@@ -1,0 +1,20 @@
+{
+    "enabled":            false,
+    "groupdashboard":     false,
+    "grouppages":         false,
+    "hasSettings":        true,
+    "i18n": {
+        "default": {
+            "bundle":     "/devwidgets/recentactivity/bundles/default.properties",
+            "name":       "Recent activity widget",
+            "description":"Recent activity widget"
+        }
+    },
+    "id":                 "recentactivity",
+    "personalportal":     false,
+    "showinsakaigoodies": false,
+    "type":               "sakai",
+    "url":                "/devwidgets/recentactivity/recentactivity.html",
+    "userdashboard":      false,
+    "userpages":          false
+}

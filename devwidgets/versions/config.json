@@ -1,0 +1,20 @@
+{
+    "enabled":            false,
+    "groupdashboard":     false,
+    "grouppages":         false,
+    "hasSettings":        true,
+    "i18n": {
+        "default": {
+            "bundle":     "/devwidgets/versions/bundles/default.properties",
+            "name":       "Version widget",
+            "description":"Version widget"
+        }
+    },
+    "id":                 "versions",
+    "personalportal":     false,
+    "showinsakaigoodies": false,
+    "type":               "sakai",
+    "url":                "/devwidgets/versions/versions.html",
+    "userdashboard":      false,
+    "userpages":          false
+}
